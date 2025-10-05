@@ -52,6 +52,7 @@ export default function Sidebar({ userRole, userName }: SidebarProps) {
     { href: '/dashboard/admin/analytics', label: 'Analytics', icon: '📈' },
     { href: '/dashboard/admin/chats', label: 'Chat History', icon: '💬' },
     { href: '/dashboard/admin/enquiries', label: 'Enquiries', icon: '📋' },
+    { href: '/dashboard/admin/quotation', label: 'Quotation', icon: '📄' },
     { href: '/dashboard/admin/settings', label: 'Settings', icon: '⚙️' },
   ];
 
@@ -61,6 +62,7 @@ export default function Sidebar({ userRole, userName }: SidebarProps) {
     { href: '/dashboard/executive/enquiries', label: 'Enquiries', icon: '📋' },
     { href: '/dashboard/executive/chats', label: 'Chat History', icon: '💬' },
     { href: '/dashboard/executive/analytics', label: 'Analytics', icon: '📈' },
+    { href: '/dashboard/executive/quotation', label: 'Quotation', icon: '📄' },
     { href: '/dashboard/executive/profile', label: 'Profile', icon: '👤' },
   ];
 
